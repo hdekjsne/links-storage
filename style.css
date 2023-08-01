@@ -3,3 +3,23 @@
     --pink: #fce6f8;
     --purple: #8d6d82;
 }
+
+.reset {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: var(--purple);
+}
