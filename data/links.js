@@ -174,25 +174,25 @@ export const links = {
         link: 'https://codesandbox.io',
         description: 'онлайн-песочница и редактор для планшетов под JS и его родственников',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    vscode: {
+        name: 'VSCode',
+        link: 'https://code.visualstudio.com',
+        description: 'удобный редактор кода',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    kevinpowell: {
+        name: 'Kevin Powell',
+        link: 'https://www.youtube.com/@KevinPowell',
+        description: 'YouTube-блог о веб-разработке на английском',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    javascriptru: {
+        name: 'JavaScript.ru',
+        link: 'https://www.youtube.com/c/JavaScriptru-videos',
+        description: 'YouTube-канал, посвящённый JS',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    alekos: {
+        name: 'Alek OS',
+        link: 'https://www.youtube.com/@AlekOS/videos',
+        description: 'YouTube-канал о жизни, обучении и программировании',
     },
     emmetcheatsheet: {
         name: '',
@@ -235,6 +235,8 @@ export const lang = {
         links.codebattle,
         links.eslint,
         links.codesandbox,
+        links.kevinpowell,
+        links.javascriptru,
     ],
     html: [
         links.mdn,
@@ -243,6 +245,7 @@ export const lang = {
         links.csslive,
         links.learnxinyminutes,
         links.codepen,
+        links.kevinpowell,
     ],
     css: [
         links.mdn,
@@ -256,6 +259,7 @@ export const lang = {
         links.codepen,
         links.sassmeister,
         links.smacss,
+        links.kevinpowell,
     ],
     python: [
         links.visualisecode,
@@ -268,7 +272,7 @@ export const lang = {
         links.learnxinyminutes,
         links.codewars,
     ],
-    csplus: [
+    cplus: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
@@ -388,9 +392,15 @@ export const type = {
     editor: [
         links.codepen,
         links.codesandbox,
+        links.vscode,
     ],
     example: [
         links.nodejspackage,
+    ],
+    video: [
+        links.kevinpowell,
+        links.javascriptru,
+        links.alekos,
     ],
 };
 
@@ -408,6 +418,7 @@ export const issue = {
         links.csslive,
         links.codepen,
         links.compatibilitytable,
+        links.kevinpowell,
     ],
     mobile: [
         links.mobilefriendly,
@@ -437,5 +448,8 @@ export const issue = {
     ],
     optimization: [
         links.optimizationguide,
+    ],
+    git: [
+        links.javascriptru,
     ],
 };
