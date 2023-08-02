@@ -10,12 +10,6 @@
     --font-size-regular: 20px;
 }
 
-.max-size {
-    width: 100%;
-    height: available;
-    height: -webkit-fill-available;
-}
-
 /* base + layout */
 
 .reset {
@@ -48,6 +42,15 @@ header p {
 hr {
     width: 100%;
     border: 3px solid var(--yellow);
+}
+
+#central-section {
+    width: 750px;
+    height: available;
+    height: -webkit-fill-available;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(auto-fill, 50px);
 }
 
 footer {
