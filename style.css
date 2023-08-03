@@ -52,6 +52,7 @@ hr {
     grid-template-columns: 70% 30%;
     grid-template-rows: repeat(auto-fill, 50px);
     column-gap: 50px;
+    overflow-y: scroll;
 }
 
 #chosen {
@@ -70,6 +71,7 @@ hr {
     grid-row: 2 / -1;
     margin-top: 50px;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 
 #nav {
@@ -96,6 +98,13 @@ footer {
     width: 100%;
     height: 100px;
     background-color: var(--purple);
+}
+
+.link {
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 /* state */
