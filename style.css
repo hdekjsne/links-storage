@@ -58,6 +58,11 @@ hr {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    align-items: center;
+    padding: 0 30px;
 }
 
 #links-container {
