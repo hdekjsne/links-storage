@@ -219,12 +219,12 @@ export const links = {
 export const lang = {
     js: [
         links.lodash,
-        links.mdn,
-        links.doka,
+        links.mdn, //
+        links.doka, //
         links.learnjs,
-        links.csslive,
-        links.learnxinyminutes,
-        links.codepen,
+        links.csslive, //
+        links.learnxinyminutes, //
+        links.codepen, //
         links.compatibilitytable,
         links.assertru,
         links.powerassert,
