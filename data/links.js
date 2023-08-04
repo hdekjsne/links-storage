@@ -12,7 +12,7 @@ export const links = {
     mobilefriendly: {
         name: 'MobileFriendly',
         link: 'https://search.google.com/test/mobile-friendly',
-        description: 'проверить совместимость с мобильным браузером',
+        description: 'проверка совместимости с мобильным браузером',
     },
     mdn: {
         name: 'MDN',
@@ -162,22 +162,22 @@ export const links = {
     eslint: {
         name: 'ESLint',
         link: 'https://eslint.org/',
-        description: 'лучший и единственный динтер для JS',
+        description: 'лучший и единственный линтер для JS', // ?
     },
     smacss: {
         name: 'SMACSS',
         link: 'https://smacss.com ',
-        description: 'стиль организации CSS-кода',
+        description: 'один из стилей организации CSS-кода',
     },
     codesandbox: {
         name: 'CodeSandbox',
         link: 'https://codesandbox.io',
-        description: 'онлайн-песочница и редактор для планшетов под JS и его родственников',
+        description: 'онлайн-песочница и редактор для мобильных устройств под JS и его родственников',
     },
     vscode: {
         name: 'VSCode',
         link: 'https://code.visualstudio.com',
-        description: 'удобный редактор кода',
+        description: 'один из самых популярных редакторов кода',
     },
     kevinpowell: {
         name: 'Kevin Powell',
@@ -187,7 +187,7 @@ export const links = {
     javascriptru: {
         name: 'JavaScript.ru',
         link: 'https://www.youtube.com/c/JavaScriptru-videos',
-        description: 'YouTube-канал, посвящённый JS',
+        description: 'YouTube-канал, посвящённый JS, на русском языке',
     },
     alekos: {
         name: 'Alek OS',
@@ -219,12 +219,12 @@ export const links = {
 export const lang = {
     js: [
         links.lodash,
-        links.mdn, //
-        links.doka, //
+        links.mdn,
+        links.doka,
         links.learnjs,
-        links.csslive, //
-        links.learnxinyminutes, //
-        links.codepen, //
+        links.csslive,
+        links.learnxinyminutes,
+        links.codepen,
         links.compatibilitytable,
         links.assertru,
         links.powerassert,

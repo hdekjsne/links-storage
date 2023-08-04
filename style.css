@@ -5,7 +5,7 @@
     --pink: #fce6f8;
     --purple: #8d6d82;
 
-    --font-size-huge: 60px;
+    --font-size-huge: 54px;
     --font-size-medium: 23px;
     --font-size-regular: 18px;
 }
@@ -96,7 +96,7 @@ hr {
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: var(--purple);
     flex-shrink: 0;
 }
