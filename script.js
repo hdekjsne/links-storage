@@ -40,10 +40,7 @@ function makeLinks() {
     processed.map((link) => {
         const element = document.createElement('p');
         element.innerHTML = `<a href='${link.link}'>${link.name}</a> : ${link.description}`;
-        element.style.width = '100%';
-        element.style.padding = '10px';
-        element.style.verticalAlign = 'center';
-        element.classList.add('reset');
+        element.classList.add('link');
         linksContainer.prepend(element);
     });
 }
