@@ -209,6 +209,61 @@ export const links = {
         link: 'https://git-scm.com',
         description: 'скачать и почитать про git',
     },
+    codebasics: {
+        name: 'Code Basics',
+        link: 'https://code-basics.com/ru',
+        description: 'базовые бесплатные курсы по различным языкам',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    emmetcheatsheet: {
+        name: '',
+        link: '',
+        description: '',
+    },
     emmetcheatsheet: {
         name: '',
         link: '',
@@ -237,6 +292,7 @@ export const lang = {
         links.codesandbox,
         links.kevinpowell,
         links.javascriptru,
+        links.codebasics,
     ],
     html: [
         links.mdn,
@@ -246,6 +302,7 @@ export const lang = {
         links.learnxinyminutes,
         links.codepen,
         links.kevinpowell,
+        links.codebasics,
     ],
     css: [
         links.mdn,
@@ -260,17 +317,20 @@ export const lang = {
         links.sassmeister,
         links.smacss,
         links.kevinpowell,
+        links.codebasics,
     ],
     python: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
         links.codebattle,
+        links.codebasics,
     ],
     c: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
+        links.codebasics,
     ],
     cplus: [
         links.visualisecode,
@@ -281,16 +341,19 @@ export const lang = {
     csharp: [
         links.codebattle,
         links.learnxinyminutes,
+        links.codebasics,
     ],
     java: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
+        links.codebasics,
     ],
     php: [
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.codebasics,
     ],
     coffeescript: [
         links.codewars,
@@ -302,11 +365,13 @@ export const lang = {
         links.codebattle,
         links.learnxinyminutes,
         links.codesandbox,
+        links.codebasics,
     ],
     ruby: [
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.codebasics,
     ],
     haskell: [
         links.codewars,
@@ -322,16 +387,19 @@ export const lang = {
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.codebasics,
     ],
     elixir: [
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.codebasics,
     ],
     clojure: [
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.codebasics,
     ],
     dart: [
         links.codewars,
@@ -389,6 +457,8 @@ export const type = {
         links.codebattle,
         links.rutestassignments,
         links.leetcode,
+        links.codepen,
+        links.codebasics,
     ],
     editor: [
         links.codepen,
@@ -408,6 +478,9 @@ export const type = {
         links.codepen,
         links.codewars,
         links.stackoverflow,
+    ],
+    courses: [
+        links.codebasics,
     ],
 };
 
