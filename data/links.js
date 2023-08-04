@@ -162,7 +162,7 @@ export const links = {
     eslint: {
         name: 'ESLint',
         link: 'https://eslint.org/',
-        description: 'лучший и единственный линтер для JS', // ?
+        description: 'популярный линтер для JS',
     },
     smacss: {
         name: 'SMACSS',
@@ -187,27 +187,27 @@ export const links = {
     javascriptru: {
         name: 'JavaScript.ru',
         link: 'https://www.youtube.com/c/JavaScriptru-videos',
-        description: 'YouTube-канал, посвящённый JS, на русском языке',
+        description: 'YouTube-канал, посвящённый JS, на русском языке. Есть несколько прейлистов про git',
     },
     alekos: {
         name: 'Alek OS',
         link: 'https://www.youtube.com/@AlekOS/videos',
         description: 'YouTube-канал о жизни, обучении и программировании',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    habr: {
+        name: 'Habr',
+        link: 'https://habr.com/ru/all/',
+        description: 'одно из крупшейших сообществ, посвящённых разработке',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    stackoverflow: {
+        name: 'Stack Overflow',
+        link: 'https://stackoverflow.com',
+        description: 'крупнейшее сообщество, построенное вокруг системы вопрос-ответ',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    git: {
+        name: 'git',
+        link: 'https://git-scm.com',
+        description: 'скачать и почитать про git',
     },
     emmetcheatsheet: {
         name: '',
@@ -360,6 +360,7 @@ export const type = {
         links.assertru,
         links.powerassert,
         links.jest,
+        links.git,
     ],
     studybook: [
         links.mdn,
@@ -401,6 +402,12 @@ export const type = {
         links.kevinpowell,
         links.javascriptru,
         links.alekos,
+    ],
+    coop: [
+        links.habr,
+        links.codepen,
+        links.codewars,
+        links.stackoverflow,
     ],
 };
 
@@ -451,5 +458,6 @@ export const issue = {
     ],
     git: [
         links.javascriptru,
+        links.git,
     ],
 };
