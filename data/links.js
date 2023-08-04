@@ -214,15 +214,15 @@ export const links = {
         link: 'https://code-basics.com/ru',
         description: 'базовые бесплатные курсы по различным языкам',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    phaser: {
+        name: 'Phaser',
+        link: 'https://phaser.io',
+        description: 'фреймворк для создания HTML5 игр',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    tproger: {
+        name: 'Tproger',
+        link: 'https://tproger.ru',
+        description: 'журнал о программировании',
     },
     emmetcheatsheet: {
         name: '',
@@ -293,6 +293,7 @@ export const lang = {
         links.kevinpowell,
         links.javascriptru,
         links.codebasics,
+        links.phaser,
     ],
     html: [
         links.mdn,
@@ -366,6 +367,7 @@ export const lang = {
         links.learnxinyminutes,
         links.codesandbox,
         links.codebasics,
+        links.phaser,
     ],
     ruby: [
         links.codewars,
@@ -419,6 +421,7 @@ export const type = {
     ],
     framework: [
         links.jest,
+        links.phaser,
     ],
     docs: [
         links.lodash,
@@ -449,6 +452,7 @@ export const type = {
     ],
     magazin: [
         links.csslive,
+        links.tproger,
     ],
     practice: [
         links.gridgarden,
@@ -467,6 +471,7 @@ export const type = {
     ],
     example: [
         links.nodejspackage,
+        links.stackoverflow,
     ],
     video: [
         links.kevinpowell,
@@ -478,9 +483,11 @@ export const type = {
         links.codepen,
         links.codewars,
         links.stackoverflow,
+        links.tproger,
     ],
     courses: [
         links.codebasics,
+        links.tproger,
     ],
 };
 
@@ -532,5 +539,8 @@ export const issue = {
     git: [
         links.javascriptru,
         links.git,
+    ],
+    gamedev: [
+        links.phaser,
     ],
 };
