@@ -52,8 +52,7 @@ function addNewTag(event) {
     const id = target.dataset.lang ?? target.dataset.type ?? target.dataset.issue;
     const element = document.createElement('p');
     element.textContent = target.textContent;
-    element.style.fontSize = '18px';
-    element.style.padding = '3px 10px';
+    element.classList.add('tag');
     chosen.push(element);
     chosenInfo.push([section, id]);
     chosenContainer.prepend(element);
