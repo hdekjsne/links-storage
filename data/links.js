@@ -224,10 +224,10 @@ export const links = {
         link: 'https://tproger.ru',
         description: 'журнал о программировании',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    php: {
+        name: 'php',
+        link: 'https://www.php.net',
+        description: 'офиуиальная документация',
     },
     emmetcheatsheet: {
         name: '',
@@ -355,6 +355,7 @@ export const lang = {
         links.codebattle,
         links.learnxinyminutes,
         links.codebasics,
+        links.php,
     ],
     coffeescript: [
         links.codewars,
@@ -432,6 +433,7 @@ export const type = {
         links.powerassert,
         links.jest,
         links.git,
+        links.php,
     ],
     studybook: [
         links.mdn,
