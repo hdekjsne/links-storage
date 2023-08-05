@@ -227,7 +227,7 @@ export const links = {
     php: {
         name: 'php',
         link: 'https://www.php.net',
-        description: 'офиуиальная документация',
+        description: 'официальная документация',
     },
     emmetcheatsheet: {
         name: '',
