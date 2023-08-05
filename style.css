@@ -157,10 +157,6 @@ header p:first-child {
 .nav-section {
     border-top: 2px solid var(--pink);
     border-bottom: 2px solid var(--pink);
-    /*
-    background-color: var(--pink);
-    border-radius: 30px;
-    */
     color: var(--purple);
     font-size: var(--font-size-regular);
 }
