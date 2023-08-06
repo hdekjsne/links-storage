@@ -229,15 +229,15 @@ export const links = {
         link: 'https://www.php.net',
         description: 'официальная документация',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    hexletblog: {
+        name: 'Блог Хекслета',
+        link: 'https://ru.hexlet.io/blog',
+        description: 'полезные статьи на широкий круг тем, связанных с программированием (от ортимизации кода до жизни программиста)',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    escapegoat: {
+        name: 'escape-goat',
+        link: 'https://github.com/sindresorhus/escape-goat',
+        description: 'библиотека для экранирования и деэкранирования HTML в JS-коде',
     },
     emmetcheatsheet: {
         name: '',
@@ -294,6 +294,7 @@ export const lang = {
         links.javascriptru,
         links.codebasics,
         links.phaser,
+        links.escapegoat,
     ],
     html: [
         links.mdn,
@@ -304,6 +305,7 @@ export const lang = {
         links.codepen,
         links.kevinpowell,
         links.codebasics,
+        links.escapegoat,
     ],
     css: [
         links.mdn,
@@ -419,6 +421,7 @@ export const lang = {
 export const type = {
     lib: [
         links.lodash,
+        links.escapegoat,
     ],
     framework: [
         links.jest,
@@ -434,6 +437,7 @@ export const type = {
         links.jest,
         links.git,
         links.php,
+        links.escapegoat,
     ],
     studybook: [
         links.mdn,
@@ -455,6 +459,7 @@ export const type = {
     magazin: [
         links.csslive,
         links.tproger,
+        links.hexletblog,
     ],
     practice: [
         links.gridgarden,
