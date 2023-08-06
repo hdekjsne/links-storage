@@ -244,27 +244,27 @@ export const links = {
         link: 'https://nodejs.org/ru',
         description: 'среда выполнения JS на сервере', // js server docs
     },
-    emmetcheatsheet: {
+    a: {
         name: '',
         link: '',
         description: '',
     },
-    emmetcheatsheet: {
+    a: {
         name: '',
         link: '',
         description: '',
     },
-    emmetcheatsheet: {
+    a: {
         name: '',
         link: '',
         description: '',
     },
-    emmetcheatsheet: {
+    a: {
         name: '',
         link: '',
         description: '',
     },
-    emmetcheatsheet: {
+    a: {
         name: '',
         link: '',
         description: '',
