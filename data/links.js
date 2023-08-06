@@ -132,7 +132,7 @@ export const links = {
     nodejspackage: {
         name: 'hexlet-boilerplates/nodejs-package',
         link: 'https://github.com/hexlet-boilerplates/nodejs-package',
-        description: 'эталонный пакет на JS от Hexlet',
+        description: 'эталонный npm-пакет на JS от Hexlet',
     },
     optimizationguide: {
         name: 'Продуманная оптимизация',
@@ -202,7 +202,7 @@ export const links = {
     stackoverflow: {
         name: 'Stack Overflow',
         link: 'https://stackoverflow.com',
-        description: 'крупнейшее сообщество, построенное вокруг системы вопрос-ответ',
+        description: 'крупнейшее сообщество, построенное по системе вопрос-ответ',
     },
     git: {
         name: 'git',
