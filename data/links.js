@@ -239,10 +239,10 @@ export const links = {
         link: 'https://github.com/sindresorhus/escape-goat',
         description: 'библиотека для экранирования и деэкранирования HTML в JS-коде',
     },
-    emmetcheatsheet: {
-        name: '',
-        link: '',
-        description: '',
+    nodejs: {
+        name: 'Node.js',
+        link: 'https://nodejs.org/ru',
+        description: 'среда выполнения JS на сервере', // js server docs
     },
     emmetcheatsheet: {
         name: '',
@@ -295,6 +295,7 @@ export const lang = {
         links.codebasics,
         links.phaser,
         links.escapegoat,
+        links.nodejs,
     ],
     html: [
         links.mdn,
@@ -438,6 +439,7 @@ export const type = {
         links.git,
         links.php,
         links.escapegoat,
+        links.nodejs,
     ],
     studybook: [
         links.mdn,
@@ -513,6 +515,9 @@ export const issue = {
         links.codepen,
         links.compatibilitytable,
         links.kevinpowell,
+    ],
+    server: [
+        links.nodejs,
     ],
     mobile: [
         links.mobilefriendly,
