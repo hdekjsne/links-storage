@@ -242,17 +242,17 @@ export const links = {
     nodejs: {
         name: 'Node.js',
         link: 'https://nodejs.org/ru',
-        description: 'среда выполнения JS на сервере', // js server docs
+        description: 'среда выполнения JS на сервере',
     },
-    a: {
-        name: '',
-        link: '',
-        description: '',
+    codemu: {
+        name: 'code.mu',
+        link: 'https://code.mu/ru/',
+        description: 'очень наполненный веб-учебник по множеству направлений',
     },
-    a: {
-        name: '',
-        link: '',
-        description: '',
+    jquery: {
+        name: 'jQuery',
+        link: 'https://jquery.com',
+        description: 'одна из старейших библиотек для веб-разработки, значительно упрощающая процесс написания кода',
     },
     a: {
         name: '',
@@ -296,6 +296,8 @@ export const lang = {
         links.phaser,
         links.escapegoat,
         links.nodejs,
+        links.codemu,
+        links.jquery,
     ],
     html: [
         links.mdn,
@@ -307,6 +309,7 @@ export const lang = {
         links.kevinpowell,
         links.codebasics,
         links.escapegoat,
+        links.codemu,
     ],
     css: [
         links.mdn,
@@ -322,6 +325,7 @@ export const lang = {
         links.smacss,
         links.kevinpowell,
         links.codebasics,
+        links.codemu,
     ],
     python: [
         links.visualisecode,
@@ -359,6 +363,7 @@ export const lang = {
         links.learnxinyminutes,
         links.codebasics,
         links.php,
+        links.codemu,
     ],
     coffeescript: [
         links.codewars,
@@ -372,6 +377,7 @@ export const lang = {
         links.codesandbox,
         links.codebasics,
         links.phaser,
+        links.codemu,
     ],
     ruby: [
         links.codewars,
@@ -417,12 +423,19 @@ export const lang = {
         links.codebattle,
         links.learnxinyminutes,
     ],
+    sql: [
+        links.codemu,
+    ],
+    bash: [
+        links.codemu,
+    ],
 };
 
 export const type = {
     lib: [
         links.lodash,
         links.escapegoat,
+        links.jquery,
     ],
     framework: [
         links.jest,
@@ -440,16 +453,19 @@ export const type = {
         links.php,
         links.escapegoat,
         links.nodejs,
+        links.jquery,
     ],
     studybook: [
         links.mdn,
         links.learnjs,
         links.optimizationguide,
+        links.codemu,
     ],
     cheatsheet: [
         links.emmetcheatsheet,
         links.learnxinyminutes,
         links.bigocheatsheet,
+        links.codemu,
     ],
     article: [
         links.cssstructurestyle,
@@ -472,6 +488,7 @@ export const type = {
         links.leetcode,
         links.codepen,
         links.codebasics,
+        links.codemu,
     ],
     editor: [
         links.codepen,
@@ -515,6 +532,8 @@ export const issue = {
         links.codepen,
         links.compatibilitytable,
         links.kevinpowell,
+        links.codemu,
+        links.jquery,
     ],
     server: [
         links.nodejs,
@@ -554,5 +573,8 @@ export const issue = {
     ],
     gamedev: [
         links.phaser,
+    ],
+    oop: [
+        links.codemu,
     ],
 };
