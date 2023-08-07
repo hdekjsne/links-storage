@@ -566,7 +566,6 @@ export const type = {
         links.leetcode,
         links.codepen,
         links.codebasics,
-        links.codemu,
         links.w3schools,
     ],
     editor: [
@@ -577,6 +576,7 @@ export const type = {
     example: [
         links.nodejspackage,
         links.stackoverflow,
+        links.codepen,
     ],
     video: [
         links.kevinpowell,
