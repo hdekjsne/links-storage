@@ -254,6 +254,36 @@ export const links = {
         link: 'https://jquery.com',
         description: 'одна из старейших библиотек для веб-разработки, значительно упрощающая процесс написания кода',
     },
+    coffeescript: {
+        name: 'CoffeeScript',
+        link: 'https://coffeescript.org',
+        description: 'язык программирования, основанный на JS, упрощающий его и расширяющий его возможности',
+    },
+    explainshell: {
+        name: 'explainshell.com',
+        link: 'https://explainshell.com',
+        description: 'мануалы к командам командной строки',
+    },
+    ulbitv: {
+        name: 'Ulbi TV',
+        link: 'https://www.youtube.com/@UlbiTV',
+        description: 'авторский YouTube-канал на русском языке про фронтенд и IT в общем + продвинутые курсы',
+    },
+    w3schools: {
+        name: 'W3Schools',
+        link: 'https://www.w3schools.com',
+        description: 'туториалы на широкий спектр тем, курсы, хостинг, упражнения и многое другое',
+    },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
     a: {
         name: '',
         link: '',
@@ -269,6 +299,32 @@ export const links = {
         link: '',
         description: '',
     },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
+    a: {
+        name: '',
+        link: '',
+        description: '',
+    },
+
 };
 
 export const lang = {
@@ -298,6 +354,8 @@ export const lang = {
         links.nodejs,
         links.codemu,
         links.jquery,
+        links.coffeescript,
+        links.w3schools,
     ],
     html: [
         links.mdn,
@@ -310,6 +368,10 @@ export const lang = {
         links.codebasics,
         links.escapegoat,
         links.codemu,
+        links.w3schools,
+    ],
+    xml: [
+        links.w3schools,
     ],
     css: [
         links.mdn,
@@ -326,6 +388,7 @@ export const lang = {
         links.kevinpowell,
         links.codebasics,
         links.codemu,
+        links.w3schools,
     ],
     python: [
         links.visualisecode,
@@ -333,29 +396,34 @@ export const lang = {
         links.codewars,
         links.codebattle,
         links.codebasics,
+        links.w3schools,
     ],
     c: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
         links.codebasics,
+        links.w3schools,
     ],
     cplus: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
         links.codebattle,
+        links.w3schools,
     ],
     csharp: [
         links.codebattle,
         links.learnxinyminutes,
         links.codebasics,
+        links.w3schools,
     ],
     java: [
         links.visualisecode,
         links.learnxinyminutes,
         links.codewars,
         links.codebasics,
+        links.w3schools,
     ],
     php: [
         links.codewars,
@@ -364,11 +432,13 @@ export const lang = {
         links.codebasics,
         links.php,
         links.codemu,
+        links.w3schools,
     ],
     coffeescript: [
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.coffeescript,
     ],
     typescript: [
         links.codewars,
@@ -378,6 +448,7 @@ export const lang = {
         links.codebasics,
         links.phaser,
         links.codemu,
+        links.w3schools,
     ],
     ruby: [
         links.codewars,
@@ -394,12 +465,14 @@ export const lang = {
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
+        links.w3schools,
     ],
     go: [
         links.codewars,
         links.codebattle,
         links.learnxinyminutes,
         links.codebasics,
+        links.w3schools,
     ],
     elixir: [
         links.codewars,
@@ -425,9 +498,11 @@ export const lang = {
     ],
     sql: [
         links.codemu,
+        links.w3schools,
     ],
     bash: [
         links.codemu,
+        links.explainshell,
     ],
 };
 
@@ -454,18 +529,21 @@ export const type = {
         links.escapegoat,
         links.nodejs,
         links.jquery,
+        links.coffeescript,
     ],
     studybook: [
         links.mdn,
         links.learnjs,
         links.optimizationguide,
         links.codemu,
+        links.w3schools,
     ],
     cheatsheet: [
         links.emmetcheatsheet,
         links.learnxinyminutes,
         links.bigocheatsheet,
         links.codemu,
+        links.explainshell,
     ],
     article: [
         links.cssstructurestyle,
@@ -489,6 +567,7 @@ export const type = {
         links.codepen,
         links.codebasics,
         links.codemu,
+        links.w3schools,
     ],
     editor: [
         links.codepen,
@@ -503,6 +582,7 @@ export const type = {
         links.kevinpowell,
         links.javascriptru,
         links.alekos,
+        links.ulbitv,
     ],
     coop: [
         links.habr,
@@ -514,6 +594,8 @@ export const type = {
     courses: [
         links.codebasics,
         links.tproger,
+        links.ulbitv,
+        links.w3schools,
     ],
 };
 
@@ -534,9 +616,13 @@ export const issue = {
         links.kevinpowell,
         links.codemu,
         links.jquery,
+        links.ulbitv,
+        links.w3schools,
     ],
     server: [
         links.nodejs,
+        links.explainshell,
+        links.w3schools,
     ],
     mobile: [
         links.mobilefriendly,
@@ -570,6 +656,7 @@ export const issue = {
     git: [
         links.javascriptru,
         links.git,
+        links.w3schools,
     ],
     gamedev: [
         links.phaser,
