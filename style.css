@@ -197,4 +197,36 @@ header p:first-child {
 .nav-section {
     -ms-overflow-style: none;
     scrollbar-width: none;
-  }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+    header p:last-child {
+        display: none;
+    }
+
+    #nav {
+        grid-column: 1 / -1;
+        grid-row: 1 / 4;
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: scroll;
+    }
+
+    .nav-section {
+        height: 100%;
+        flex-shrink: 0;
+    }
+
+    #chosen {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    #links-container {
+        grid-column: 1 / -1;
+        grid-row: 5 / -1;
+        margin-right: 0;
+    }
+}
