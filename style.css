@@ -200,6 +200,18 @@ header p:first-child {
 }
 
 @media (max-width: 600px) and (orientation: portrait) {
+    header {
+        margin: 30px 40px;
+    }
+
+    header p:first-child {
+        font-size: 30px;
+    }
+
+    hr {
+        display: none;
+    }
+
     header p:last-child {
         display: none;
     }
