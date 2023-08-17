@@ -274,10 +274,70 @@ export const links = {
         link: 'https://www.w3schools.com',
         description: 'туториалы на широкий спектр тем, курсы, хостинг, упражнения и многое другое',
     },
-    a: {
-        name: '',
-        link: '',
+    vue: {
+        name: 'Vue.js',
+        link: 'https://vuejs.org',
+        description: 'фреймворк для создания пользовательского интерфейса',
+    },
+    d3: {
+        name: 'D3',
+        link: 'https://d3js.org',
+        description: 'js-библиотека для визуализации данных',
+    },
+    observableplot: {
+        name: 'Observable Plot',
+        link: 'https://observablehq.com/plot/',
+        description: 'js-библиотека для визуализации данных от создателей D3',
+    },
+    reactnative: {
+        name: 'React Native',
+        link: 'https://reactnative.dev',
+        description: 'фреймворк для создания нативных приложений на React',
+    },
+    threejs: {
+        name: 'three.js',
+        link: 'https://threejs.org',
+        description: 'js-библиотека для создания 3D-визуализаций',
+    },
+    svgpatheditor: {
+        name: 'SvgPathEditor',
+        link: 'https://yqnn.github.io/svg-path-editor/',
         description: '',
+    },
+    appideas: {
+        name: 'app-ideas',
+        link: 'https://github.com/florinpop17/app-ideas',
+        description: 'генерация path',
+    },
+    omatsuri: {
+        name: 'Omatsuri',
+        link: 'https://omatsuri.app',
+        description: 'коллекция из 12 полезных инструментов для веб-разработки',
+    },
+    haikei: {
+        name: 'haikei',
+        link: 'https://haikei.app',
+        description: 'генератор svg-форм/фонов',
+    },
+    fontpair: {
+        name: 'fontpair',
+        link: 'https://www.fontpair.co',
+        description: 'веб-инструмент для подбора пар шрифтов',
+    },
+    cssgenerators: {
+        name: 'CSS Generators',
+        link: 'https://css-generators.com',
+        description: 'набор инструментов для создания css-сниппетов',
+    },
+    icones: { // найти место
+        name: 'Icones',
+        link: 'https://icones.js.org',
+        description: 'каталог svg-иконок',
+    },
+    airbnbstyleguide: {
+        name: 'Airbnb JavaScript Style Guide',
+        link: 'https://github.com/airbnb/javascript',
+        description: 'общепринятые стандарты js-кода',
     },
     a: {
         name: '',
@@ -309,22 +369,6 @@ export const links = {
         link: '',
         description: '',
     },
-    a: {
-        name: '',
-        link: '',
-        description: '',
-    },
-    a: {
-        name: '',
-        link: '',
-        description: '',
-    },
-    a: {
-        name: '',
-        link: '',
-        description: '',
-    },
-
 };
 
 export const lang = {
@@ -356,6 +400,12 @@ export const lang = {
         links.jquery,
         links.coffeescript,
         links.w3schools,
+        links.vue,
+        links.d3,
+        links.observableplot,
+        links.reactnative,
+        links.threejs,
+        links.airbnbstyleguide,
     ],
     html: [
         links.mdn,
@@ -369,6 +419,7 @@ export const lang = {
         links.escapegoat,
         links.codemu,
         links.w3schools,
+        links.svgpatheditor,
     ],
     xml: [
         links.w3schools,
@@ -389,6 +440,7 @@ export const lang = {
         links.codebasics,
         links.codemu,
         links.w3schools,
+        links.threejs,
     ],
     python: [
         links.visualisecode,
@@ -511,10 +563,15 @@ export const type = {
         links.lodash,
         links.escapegoat,
         links.jquery,
+        links.d3,
+        links.observableplot,
+        links.threejs,
     ],
     framework: [
         links.jest,
         links.phaser,
+        links.vue,
+        links.reactnative,
     ],
     docs: [
         links.lodash,
@@ -530,6 +587,8 @@ export const type = {
         links.nodejs,
         links.jquery,
         links.coffeescript,
+        links.vue,
+        links.threejs,
     ],
     studybook: [
         links.mdn,
@@ -567,11 +626,23 @@ export const type = {
         links.codepen,
         links.codebasics,
         links.w3schools,
+        links.threejs,
+        links.appideas,
     ],
     editor: [
         links.codepen,
         links.codesandbox,
         links.vscode,
+    ],
+    tool: [
+        links.omatsuri,
+        links.cssruler,
+        links.colorscheme,
+        links.htmlcolorcodes,
+        links.visualisecode,
+        links.svgpatheditor,
+        links.haikei,
+        links.fontpair,
     ],
     example: [
         links.nodejspackage,
@@ -618,6 +689,7 @@ export const issue = {
         links.jquery,
         links.ulbitv,
         links.w3schools,
+        links.omatsuri
     ],
     server: [
         links.nodejs,
@@ -637,6 +709,7 @@ export const issue = {
     font: [
         links.googlefonts,
         links.paratype,
+        links.fontpair,
     ],
     algorythm: [
         links.bigocheatsheet,
