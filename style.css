@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
     --yellow: #fefcdc;
     --pink: #fce6f8;
     --purple: #8d6d82;
 
+    --light-purple: #676586;
+    --dark-purple: #3e3d51;
+    --black: #070709;
+    --blue: #213c75;
+    --white: #c2e0eb;
+
     --font-size-huge: 54px;
     --font-size-medium: 23px;
     --font-size-regular: 18px;
+
+    --font-marmelad: 'Marmelad', sans-serif;
+    --font-roboto: 'Roboto Mono', monospace;
 }
 
 /* base + layout */
@@ -34,14 +44,14 @@ header {
     margin: 50px 75px;
 }
 
-header p {
+header p { /* ? */
     margin: 0;
     padding: 0 0 0 20px;
 }
 
 hr {
     width: 100%;
-    border: 3px solid var(--yellow);
+    border: 3px solid var(--blue);
 }
 
 #central-section {
@@ -128,7 +138,7 @@ a:hover {
 
 body {
     font-size: var(--font-size-medium);
-    font-family: 'Marmelad', sans-serif;
+    font-family: var(--font-roboto);
     color: var(--purple);
 }
 
@@ -209,10 +219,6 @@ header p:first-child {
     }
 
     hr {
-        display: none;
-    }
-
-    header p:last-child {
         display: none;
     }
 
