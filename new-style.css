@@ -131,6 +131,7 @@ a {
   text-decoration: none;
   color: var(--white);
   border-bottom: 2px dotted var(--blue);
+  padding: 2px 8px;
 }
 
 #chosen::-webkit-scrollbar {
@@ -217,6 +218,10 @@ footer {
 .nav-section .tag:hover {
   cursor: pointer;
   background-color: var(--light-purple);
+}
+
+a:hover {
+  background-color: var(--blue);
 }
 
 @media screen and (max-width: 600px) {
