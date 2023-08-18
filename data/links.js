@@ -2,7 +2,7 @@ export const links = {
     caniuse: {
         name: 'CanIUse',
         link: 'https://caniuse.com/',
-        description: 'проверка совместимости с браузером',
+        description: 'проверка совместимости функционала с браузером',
     },
     lodash: {
         name: 'Lodash',
@@ -12,7 +12,7 @@ export const links = {
     mobilefriendly: {
         name: 'MobileFriendly',
         link: 'https://search.google.com/test/mobile-friendly',
-        description: 'проверка совместимости с мобильным браузером',
+        description: 'проверка совместимости кода или целой страницы с мобильным браузером',
     },
     mdn: {
         name: 'MDN',
@@ -140,7 +140,7 @@ export const links = {
         description: 'серия статей про умную оптимизацию кода',
     },
     codewars: {
-        name: 'codewars',
+        name: 'Codewars',
         link: 'https://www.codewars.com',
         description: 'архив упражнений и кодинг на скорость',
     },
@@ -550,6 +550,7 @@ export const lang = {
     bash: [
         links.codemu,
         links.explainshell,
+        links.learnxinyminutes,
     ],
 };
 
@@ -729,5 +730,10 @@ export const issue = {
     ],
     oop: [
         links.codemu,
+    ],
+    svg: [
+        links.caniuse,
+        links.mdn,
+        links.doka,
     ],
 };
