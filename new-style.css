@@ -218,3 +218,64 @@ footer {
   cursor: pointer;
   background-color: var(--light-purple);
 }
+
+@media screen and (max-width: 600px) {
+  header {
+    margin: 30px 40px;
+  }
+
+  header p {
+    font-size: 30px;
+  }
+
+  #nav {
+    grid-column: 1 / -1;
+    grid-row: 1 / 4;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+
+  .nav-wrapper {
+    height: 100%;
+  }
+
+  .nav-section {
+    border: 2px solid var(--blue);
+  }
+
+  #chosen {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #links-container {
+    grid-column: 1 / -1;
+    grid-row: 5 / -1;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  header {
+    margin: 10px 40px;
+  }
+
+  header p {
+    font-size: var(--font-tiny);
+  }
+
+  hr {
+    display: none;
+  }
+
+  .nav-section {
+    padding: 10px;
+  }
+
+  .nav-title {
+    display: none;
+  }
+}
