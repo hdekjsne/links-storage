@@ -319,11 +319,6 @@ export const links = {
         link: 'https://haikei.app',
         description: 'генератор svg-форм/фонов',
     },
-    fontpair: {
-        name: 'fontpair',
-        link: 'https://www.fontpair.co',
-        description: 'веб-инструмент для подбора пар шрифтов',
-    },
     cssgenerators: {
         name: 'CSS Generators',
         link: 'https://css-generators.com',
@@ -642,7 +637,6 @@ export const type = {
         links.visualisecode,
         links.svgpatheditor,
         links.haikei,
-        links.fontpair,
     ],
     example: [
         links.nodejspackage,
@@ -709,7 +703,6 @@ export const issue = {
     font: [
         links.googlefonts,
         links.paratype,
-        links.fontpair,
     ],
     algorythm: [
         links.bigocheatsheet,
