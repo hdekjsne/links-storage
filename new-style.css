@@ -211,7 +211,6 @@ footer {
 /* state */
 #chosen .tag:hover {
   background-color: var(--light-purple);
-  border-radius: 5px;
   cursor: pointer;
 }
 

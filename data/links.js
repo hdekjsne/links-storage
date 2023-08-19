@@ -334,10 +334,10 @@ export const links = {
         link: 'https://github.com/airbnb/javascript',
         description: 'общепринятые стандарты js-кода',
     },
-    a: {
-        name: '',
-        link: '',
-        description: '',
+    runebook: {
+        name: 'Runebook.dev',
+        link: 'https://runebook.dev',
+        description: 'перевод документаций', // docs
     },
     a: {
         name: '',
@@ -587,6 +587,7 @@ export const type = {
         links.coffeescript,
         links.vue,
         links.threejs,
+        links.runebook,
     ],
     studybook: [
         links.mdn,
