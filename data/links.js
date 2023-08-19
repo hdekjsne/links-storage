@@ -2,7 +2,7 @@ export const links = {
     caniuse: {
         name: 'CanIUse',
         link: 'https://caniuse.com/',
-        description: 'проверка совместимости функционала с браузером',
+        description: 'проверка совместимости функционала с браузерами',
     },
     lodash: {
         name: 'Lodash',
@@ -27,17 +27,17 @@ export const links = {
     emmetcheatsheet: {
         name: 'Шпаргалка Emmet',
         link: 'https://dwstroy.ru/stail/plaginy-rasshireniya/emmet-shpargalka/',
-        description: '',
+        description: 'полный список сокращений Emmet',
     },
     doka: {
         name: 'Дока',
         link: 'https://doka.guide',
-        description: 'красивый сайт от выпускников Яндекс.Практикума с документацией и советами',
+        description: 'красивый сайт от выпускников Яндекс.Практикума с документацией и советами по теме веб-разработки',
     },
     cssstructurestyle: {
         name: 'Стили организации CSS-кода',
         link: 'https://habr.com/ru/articles/256109/',
-        description: 'подробная статья о способах организации кода',
+        description: 'подробная статья о способах организации CSS на русском языке',
     },
     htmlhint: {
         name: 'HTMLHint',
@@ -47,7 +47,7 @@ export const links = {
     learnjs: {
         name: 'Современный учебник JavaScript',
         link: 'https://learn.javascript.ru',
-        description: 'интерактивный учебник',
+        description: 'веб-учебник',
     },
     csslive: {
         name: 'css-live.ru',
@@ -67,7 +67,7 @@ export const links = {
     gridgarden: {
         name: 'Grid Garden',
         link: 'https://cssgridgarden.com/#ru',
-        description: 'упражнение для запоминания grid для детей и джунов',
+        description: 'упражнение для знакомства с grid для детей и джунов',
     },
     sass: {
         name: 'Sass',
@@ -92,12 +92,12 @@ export const links = {
     codepen: {
         name: 'CodePen',
         link: 'https://codepen.io/',
-        description: 'онлайн-песочница для фронтенд-проектов',
+        description: 'онлайн-песочница и инфраструктура для небольших фронтенд-проектов. В редакторе можно подключить любую библиотеку, любой препроцессор. Страница собирается параллельно обновлению кода. ',
     },
     sassmeister: {
         name: 'Sassmeister',
         link: 'https://www.sassmeister.com/',
-        description: 'визуализация функционала препроцессора Sass',
+        description: 'позволяет увидеть конечный результат преобразования Sass в CSS',
     },
     bigocheatsheet: {
         name: 'BigO cheatsheet',
@@ -127,12 +127,12 @@ export const links = {
     visualisecode: {
         name: 'Python Tutor: Visualize code',
         link: 'https://pythontutor.com/visualize.html#mode=edit',
-        description: 'визуализация исполнения кода',
+        description: 'визуализация исполнения кода по шагам',
     },
     nodejspackage: {
         name: 'hexlet-boilerplates/nodejs-package',
         link: 'https://github.com/hexlet-boilerplates/nodejs-package',
-        description: 'эталонный npm-пакет на JS от Hexlet',
+        description: 'эталонный npm-пакет от Hexlet',
     },
     optimizationguide: {
         name: 'Продуманная оптимизация',
@@ -166,18 +166,18 @@ export const links = {
     },
     smacss: {
         name: 'SMACSS',
-        link: 'https://smacss.com ',
+        link: 'https://smacss.com',
         description: 'один из стилей организации CSS-кода',
     },
     codesandbox: {
         name: 'CodeSandbox',
         link: 'https://codesandbox.io',
-        description: 'онлайн-песочница и редактор для мобильных устройств под JS и его родственников',
+        description: 'онлайн-песочница и редактор для мобильных устройств под JS и его родственников. Уже подключённые фреймворки и небольшие заранее подготовленные проекты для практики',
     },
     vscode: {
         name: 'VSCode',
         link: 'https://code.visualstudio.com',
-        description: 'один из самых популярных редакторов кода',
+        description: 'один из самых популярных редакторов кода. Большое количество функций, облегчающих разработку, а также плагинов и приятных цветовых тем',
     },
     kevinpowell: {
         name: 'Kevin Powell',
@@ -192,7 +192,7 @@ export const links = {
     alekos: {
         name: 'Alek OS',
         link: 'https://www.youtube.com/@AlekOS/videos',
-        description: 'YouTube-канал о жизни, обучении и программировании',
+        description: 'YouTube-канал о жизни, обучении и программировании. Есть видео, посвящённые устройству железа, истории программирования, математике и др.',
     },
     habr: {
         name: 'Habr',
@@ -202,7 +202,7 @@ export const links = {
     stackoverflow: {
         name: 'Stack Overflow',
         link: 'https://stackoverflow.com',
-        description: 'крупнейшее сообщество, построенное по системе вопрос-ответ',
+        description: 'крупнейшее сообщество, построенное по системе вопрос-ответ. Самый простой способ найти готовое решение до ChatGPT',
     },
     git: {
         name: 'git',
@@ -212,7 +212,7 @@ export const links = {
     codebasics: {
         name: 'Code Basics',
         link: 'https://code-basics.com/ru',
-        description: 'базовые бесплатные курсы по различным языкам',
+        description: 'базовые бесплатные курсы по различным языкам. Сайт с открытым исходным кодом, в разработке которого можно поучаствовать',
     },
     phaser: {
         name: 'Phaser',
@@ -297,17 +297,17 @@ export const links = {
     threejs: {
         name: 'three.js',
         link: 'https://threejs.org',
-        description: 'js-библиотека для создания 3D-визуализаций',
+        description: 'js-библиотека для создания 3D-визуализаций. На сайте есть полная документация, ссылки на сообщество, примеры для вдохновения и онлайн-песочница',
     },
     svgpatheditor: {
         name: 'SvgPathEditor',
         link: 'https://yqnn.github.io/svg-path-editor/',
-        description: '',
+        description: 'создание и импорт svg path без кода',
     },
     appideas: {
         name: 'app-ideas',
         link: 'https://github.com/florinpop17/app-ideas',
-        description: 'генерация path',
+        description: 'коллекция идей для пет-проектов, разделённая на уровни сложности',
     },
     omatsuri: {
         name: 'Omatsuri',
@@ -324,7 +324,7 @@ export const links = {
         link: 'https://css-generators.com',
         description: 'набор инструментов для создания css-сниппетов',
     },
-    icones: { // найти место
+    icones: {
         name: 'Icones',
         link: 'https://icones.js.org',
         description: 'каталог svg-иконок',
@@ -415,6 +415,7 @@ export const lang = {
         links.codemu,
         links.w3schools,
         links.svgpatheditor,
+        links.emmetcheatsheet,
     ],
     xml: [
         links.w3schools,
@@ -436,6 +437,7 @@ export const lang = {
         links.codemu,
         links.w3schools,
         links.threejs,
+        links.emmetcheatsheet,
     ],
     python: [
         links.visualisecode,
@@ -643,6 +645,7 @@ export const type = {
         links.nodejspackage,
         links.stackoverflow,
         links.codepen,
+        links.doka,
     ],
     video: [
         links.kevinpowell,
@@ -684,7 +687,8 @@ export const issue = {
         links.jquery,
         links.ulbitv,
         links.w3schools,
-        links.omatsuri
+        links.omatsuri,
+        links.icones,
     ],
     server: [
         links.nodejs,
@@ -735,5 +739,6 @@ export const issue = {
         links.caniuse,
         links.mdn,
         links.doka,
+        links.icones,
     ],
 };
