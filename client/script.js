@@ -1,4 +1,4 @@
-import { lang, type, issue } from './data/links.js';
+import { lang, type, issue } from '../data/links.js';
 
 const chosenContainer = document.getElementById('chosen');
 const linksContainer = document.getElementById('links-container');
