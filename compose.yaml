@@ -1,0 +1,14 @@
+version: '1.0.0'
+services:
+  service1:
+    image: client
+    ports:
+      -"8080:80"
+    volumes:
+      -
+  service2:
+    image: server
+    ports:
+      -"8080:80"
+    volumes:
+      -
